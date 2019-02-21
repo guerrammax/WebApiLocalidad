@@ -18,14 +18,20 @@ namespace WebApiLocalidad.Controllers
 
         [HttpGet]
         public IEnumerable<Pais> Get(){
-
-            return context.Paises.ToList();
+            //Retorna paises
+             return context.Paises.ToList();
+            //Retorna Paises y Estados
+            // return context.Paises
+            //     .Include( x => x.Estados ).ToList();
         }
 
         [HttpGet("{id}", Name="paisCreado")]
         public IActionResult GetById(int id){
             
-            var pais = context.Paises.FirstOrDefault(x=> x.Id == id);
+            //Retorna solo pais
+            //var pais = context.Paises.FirstOrDefault(x=> x.Id == id);
+            //Retorna Pais con Estado0s
+            var pais = context.Paises.Include(x => x.Estados).FirstOrDefault(x=> x.Id == id);
 
             if (pais == null)
             {
