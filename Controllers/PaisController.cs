@@ -1,5 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebApiLocalidad.Models;
@@ -8,6 +10,7 @@ namespace WebApiLocalidad.Controllers
 {
     [Produces("application/json")]
     [Route("api/Pais")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class PaisController : Controller
     {
         private readonly ApplicationDbContext context;
