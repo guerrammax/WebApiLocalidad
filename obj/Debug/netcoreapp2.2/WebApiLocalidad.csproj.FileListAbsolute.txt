@@ -1,0 +1,14 @@
+E:\reposgit\WebApiLocalidad\bin\Debug\netcoreapp2.2\WebApiLocalidad.deps.json
+E:\reposgit\WebApiLocalidad\bin\Debug\netcoreapp2.2\WebApiLocalidad.runtimeconfig.json
+E:\reposgit\WebApiLocalidad\bin\Debug\netcoreapp2.2\WebApiLocalidad.runtimeconfig.dev.json
+E:\reposgit\WebApiLocalidad\bin\Debug\netcoreapp2.2\WebApiLocalidad.dll
+E:\reposgit\WebApiLocalidad\bin\Debug\netcoreapp2.2\WebApiLocalidad.pdb
+E:\reposgit\WebApiLocalidad\obj\Debug\netcoreapp2.2\WebApiLocalidad.csprojAssemblyReference.cache
+E:\reposgit\WebApiLocalidad\obj\Debug\netcoreapp2.2\WebApiLocalidad.csproj.CoreCompileInputs.cache
+E:\reposgit\WebApiLocalidad\obj\Debug\netcoreapp2.2\WebApiLocalidad.RazorAssemblyInfo.cache
+E:\reposgit\WebApiLocalidad\obj\Debug\netcoreapp2.2\WebApiLocalidad.RazorAssemblyInfo.cs
+E:\reposgit\WebApiLocalidad\obj\Debug\netcoreapp2.2\WebApiLocalidad.AssemblyInfoInputs.cache
+E:\reposgit\WebApiLocalidad\obj\Debug\netcoreapp2.2\WebApiLocalidad.AssemblyInfo.cs
+E:\reposgit\WebApiLocalidad\obj\Debug\netcoreapp2.2\WebApiLocalidad.RazorTargetAssemblyInfo.cache
+E:\reposgit\WebApiLocalidad\obj\Debug\netcoreapp2.2\WebApiLocalidad.dll
+E:\reposgit\WebApiLocalidad\obj\Debug\netcoreapp2.2\WebApiLocalidad.pdb
